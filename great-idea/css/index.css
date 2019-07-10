@@ -128,6 +128,9 @@ footer {
 	margin: 30px 0px 0px 0px;
 }
 
+/* start of service.css */
+
+
 .header2 {
 	display: flex;
 	justify-content: space-between;
@@ -143,5 +146,93 @@ nav {
 .topSect {
 	display: flex;
 	margin: 20px 0px 15px 0px;
+
+}
+
+.servDes {
+	display:flex;
+	align-items: flex-start;
+}
+
+.firstRow {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px 0px 0px;
+}
+.design{
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	border: 1px solid black;
+	padding: 20px;
+	background: rgb(240, 238, 238);
+}
+.ux {
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	border: 1px solid black;
+	padding: 20px;
+	background: rgb(240, 238, 238);
+}
+
+.secondRow {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px 0px 0px;
+}
+.digital {
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	border: 1px solid black;
+	padding: 20px;
+	background: rgb(240, 238, 238);
+}
+.webDev{
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	border: 1px solid black;
+	padding: 20px;
+	background: rgb(240, 238, 238);
+}
+
+.thirdRow {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px 0px 0px;
+}
+.ios {
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	border: 1px solid black;
+	padding: 20px;
+	background: rgb(240, 238, 238);
+}
+.android {
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	border: 1px solid black;
+	padding: 20px;
+	background: rgb(240, 238, 238);
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 80px 0px 0px 0px;
+}
+
+.facts {
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+}
+.bottomImg {
+	display:flex;
 
 }
