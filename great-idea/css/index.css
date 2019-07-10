@@ -94,12 +94,12 @@ nav a {
 }
 .secondLine {
 	display: flex;
-	margin:40px 0px;
+	margin:20px 0px;
 }
 .secondLineTxt{
 	display: flex;
 	width: 25%;
-	margin: 15%;
+	margin: 10%;
 }
 .secondLineImg{
 	margin: 40px 0px 0px 0px;
@@ -110,11 +110,22 @@ nav a {
 }
 .innovation a {
 	font-size: 20px;
+	text-align: center;
+	width: 140px;
+	margin: 15px 0px;
+	padding: 5px 10px;
+	background: rgb(245, 243, 243);
+	border: 1px solid gray;
+	border-radius: 2%;
 }
 .thirdLineBlock {
 	display: flex;
 	margin: 40px 0px;
-	
+	padding: 40px 0px 5px 0px;
+	border-top: 1px solid gray;
+}
+.fifthLine {
+	padding: 5px 15px;
 }
 
 .fifthLineBlock {
@@ -124,8 +135,19 @@ nav a {
 	margin: 40px 0px;
 }
 footer {
-
+	border-top: 1px solid gray;
+	padding: 30px 0px;
 	margin: 30px 0px 0px 0px;
+}
+
+.contactInfo li{
+	margin: 8px 0px;
+	list-style-type: none;
+}
+
+.copyright1 {
+	text-align: center;
+	padding: 40px 0px 0px 0px;
 }
 
 /* start of service.css */
