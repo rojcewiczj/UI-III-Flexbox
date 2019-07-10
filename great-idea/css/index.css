@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 
 body {
-	max-width: 900px;
+	max-width: 930px;
 	margin: auto;
 	background: white;
 	padding: 5px;
@@ -152,12 +152,27 @@ nav {
 .servDes {
 	display:flex;
 	align-items: flex-start;
+	
 }
 
 .firstRow {
 	display: flex;
 	justify-content: space-between;
 	margin: 40px 0px 0px 0px;
+	padding: 30px 0px 0px 0px;
+	border-top: 1px solid gray;
+}
+
+.firstRow a {
+	
+	text-align: center;
+	width: 140px;
+	margin: 15px 0px;
+	padding: 5px 10px;
+	background: rgb(245, 243, 243);
+	border: 1px solid gray;
+	border-radius: 5%;
+
 }
 .design{
 	display: flex;
@@ -165,7 +180,7 @@ nav {
 	margin: 15px;
 	border: 1px solid black;
 	padding: 20px;
-	background: rgb(240, 238, 238);
+	background: rgb(241, 240, 240);
 }
 .ux {
 	display: flex;
@@ -180,6 +195,15 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	margin: 40px 0px 0px 0px;
+}
+.secondRow a {
+	text-align: center;
+	width: 140px;
+	margin: 15px 0px;
+	padding: 5px 10px;
+	background: rgb(245, 243, 243);
+	border: 1px solid gray;
+	border-radius: 5%;
 }
 .digital {
 	display: flex;
@@ -203,6 +227,16 @@ nav {
 	justify-content: space-between;
 	margin: 40px 0px 0px 0px;
 }
+.thirdRow a{
+	
+	text-align: center;
+	width: 140px;
+	margin: 15px 0px;
+	padding: 5px 10px;
+	background: rgb(245, 243, 243);
+	border: 1px solid gray;
+	border-radius: 5%;
+}
 .ios {
 	display: flex;
 	flex-direction: column;
@@ -225,6 +259,9 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 80px 0px 0px 0px;
+	padding: 50px 0px 0px 0px;
+	border-top: 2px solid black;
+
 }
 
 .facts {
@@ -232,7 +269,23 @@ nav {
 	flex-direction: column;
 	margin: 15px;
 }
+ul {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	margin: 20px 20px;
+	list-style-type: square;
+  
+}
+li {
+	margin: 8px 0px;
+}
 .bottomImg {
 	display:flex;
 
+}
+
+.copyright {
+	text-align: center;
+	margin: 40px 0px 0px 0px;
 }
