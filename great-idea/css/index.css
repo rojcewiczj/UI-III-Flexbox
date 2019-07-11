@@ -249,7 +249,7 @@ nav {
 	justify-content: space-between;
 	margin: 40px 0px 0px 0px;
 }
-.thirdRow a{
+.button{
 	
 	text-align: center;
 	width: 140px;
@@ -311,3 +311,79 @@ li {
 	text-align: center;
 	margin: 40px 0px 0px 0px;
 }
+
+/* start of newPage */
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+	body {
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	.container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.container div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.containerAnchor {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.containerAnchor a {
+		display: flex;
+		flex-wrap: wrap;
+	}
+    nav {
+		display: flex;
+		flex-wrap: wrap;
+	}
+  }
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	
+}
+.container div {
+	width: 200px;
+	height: auto;
+	margin: 15px;
+	border: 1px solid black;
+	padding: 20px;
+	background: rgb(240, 238, 238);
+	
+}
+.containerAnchor{
+	display: flex;
+	justify-content: space-around;
+}
+.containerAnchor a{
+	width: 200px;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+}
+.rowOne {
+	display: flex;
+	justify-content: space-around
+
+}
+.rowTwo {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.footerNewPage {
+	
+	width: 60%;
+	margin: auto;
+	text-align: center
+
+}
+
